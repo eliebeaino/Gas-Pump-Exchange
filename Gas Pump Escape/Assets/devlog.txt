@@ -1,0 +1,77 @@
+
+BUGS:
+	* knockback vector format
+	* death animation not triggering sometimes -- bug with jump and knockback anim double activation
+	* keep knockback before playing death -- MUST FIX ABOVE LINES FIRST --
+	* add jumnp camera shake counter to avoid multiple shakes
+	* double collision on player from 2 colliders
+	* don't switch everything to fixedupdate on player, becomes unresponsive
+
+FEATURES TO ADD:
+	* split the health and controller component for player
+	* light cracks from within the background -- customized for each scene
+	* more light object variations
+	* random world shakes
+	* add world shake upon first entry of first level
+	* fan from below to go up higher ledges
+			0 (or minus) gravity -- 0 friction 
+	* press nozzle at end of stage to go back to start to finish level
+			--- maybe enemy spawn to chase u and fog disapates from start -- double level design
+	* add animation for UI bars:
+								- on heal flash - icon shake
+								- on damage flash (screen flash)
+								- radioactive bar interactive with corresponding amounts (needs to be on code)
+								- flashy icon for radioactive bar on critical and shakes
+	* Add credits scene in start menu through a ladder --add to buildindex at the end and increment the level scenemanager by 1 for end levels --
+
+Changelog 0.1a:
+	* Introduction of Devlog
+	* Added Lighting prefabs / brushes
+	* Fixed (updated) changed death / knockback code / land animation issue - new bug introduced
+	* Added lighting layer & grid
+	* Fixed some layer sorting to accomodate the new lighting additions
+	* Exit level now has glow light
+	* Changed the physics layer of tileset, player//enemy now step inside the tiles for more realistic view
+	* Updated rain parameter sizes -- made the particles thinner by squishing the scale --
+	* Sorted out all prefab folder and hierarchy into more organized folders
+	* Added fade in and fade out to scenes through the levelexit object
+	* Slightly change feet collider for player to avoid double jumps on corners
+	* Upgraded lightning events system to more stable/flexible structure
+	* Introduced Musicplayer with 2 songs, gameplay and gameover
+	* Introduced Fog Particle System & Fog Damage System
+
+Changelog 0.1b:
+	* fixed game session bug by moving object to root in hierarchy of level scene
+	* Sorted sprites folder for organisation
+	* Fixed Exit on level 4 scene - player was getting stuck
+	* Ugraded health bar system to be more efficient and more flexible to be integrated in other features
+	* Upgraded fog system functionality to more flexible structure with GUI
+	* Upgraded some UI elements and added radioactive fog UI bar with functionality
+	* Modified Cinemachine to center in the player scene
+	* Added Success scene
+	* improved on level exit script game logic for future level implentation
+
+Changelog 0.1c;
+	* Updated health bar system, added decrease pause for dmg bar
+
+Changelog 0.1d:
+	* Minor changes to some scripts and improve variable calling
+	* Introduced heal up mechanism for player through interactables -- Added health potion with animation
+	* Added function in player script to differntiate between
+				getting the current health value and the start health value of the level
+				for future referncing in other levels
+	* Upgraded health bar system for heal // damage taken visible amounts
+	* Fixed certain prefabs and renamed a few to more appropriate references
+
+Changelog 0.1e:
+	* Introduction of geyser mechanic - coding in progress
+
+Changelog 0.1f:
+	* Reduced fog visual density levels in half when maxed
+	* Added new level scene
+
+Changelog 0.1g:
+	* Revamped some scripts and prefabs to fix some linking issues and split the player controller from the player health system
+
+Changelog 0.1h:
+	* Introduced firing mechanic to player

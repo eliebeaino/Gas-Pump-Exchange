@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DARig
+  - EnterBuilding
+  - ExitBuilding
+  - Bullet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Ground
+  - Ladder
+  - Player
+  - World
+  - Enemy
+  - Hazards
+  - Interactables
+  - Bullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Game Background
+    uniqueID: 178084709
+    locked: 0
+  - name: Background
+    uniqueID: 497386109
+    locked: 0
+  - name: Lighting
+    uniqueID: 463713109
+    locked: 0
+  - name: Foreground (Main Game)
+    uniqueID: 655883667
+    locked: 0
+  - name: Enemy
+    uniqueID: 673755245
+    locked: 0
+  - name: Hazards
+    uniqueID: 3952555903
+    locked: 0
+  - name: Player
+    uniqueID: 1609521529
+    locked: 0
+  - name: Decoration Forgeound
+    uniqueID: 2119301583
+    locked: 0
+  - name: Interactables
+    uniqueID: 3716709975
+    locked: 0
